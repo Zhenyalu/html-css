@@ -1,0 +1,51 @@
+:root {
+    --color-brand-Light: #819B57;
+    --color-primary-light: #FAF4EA;
+    --color-brand-Dark: #465929;
+    --color-primary-dark: #31261A;
+}
+/* Base */
+body{
+    color: var(--color-primary-dark);
+}
+ul {
+    list-style-type: none;
+}
+/* Buttons */
+.button {
+    background-color: var(--color-brand-Light);
+    width: 238px;
+    height: 59px;
+    padding: 16px 32px;
+    border: 2px solid var(--color-brand-Light);
+    border-radius: 8px;
+    color: var(--color-primary-light);
+    cursor: pointer;
+}
+.button:hover {
+    background-color: transparent;
+    color: var(--color-brand-Dark);
+    
+}
+/* LINK */
+.link {
+    color: var(--color-primary-light);
+}
+.link:hover {
+    color: var(--color-brand-Dark)
+}
+/* Hero-section */
+.hero-title {
+    color: var(--color-primary-dark);
+}   
+.accent {
+    color: var(--color-brand-Light);
+}
+/* Advantager-section */
+.advantager-list {
+    color: var(--color-primary-light);
+    background-color: var(--color-brand-Light);
+}
+.section-title {
+    color: var(--color-primary-dark);
+}
